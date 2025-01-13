@@ -1,5 +1,6 @@
-import reflex as rx
+from reflex import Config
 
-config = rx.Config(
+config = Config(
     app_name="Portafolio",
+    assets_dir= 'assets'
 )

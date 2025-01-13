@@ -1,5 +1,9 @@
+# Data
 NUM_CEL = '5639265819'
 MAIL = 'mario.cz24@outlook.com'
 GITHUB = 'https://github.com/MarioCanudas'
 LINKEDIN = 'https://www.linkedin.com/in/Mario-Canudas'
 WHATSAPP = f'https://wa.me/{NUM_CEL}'
+
+# Design constants
+DIVIDER_MARGIN = '3em'
