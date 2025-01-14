@@ -1,8 +1,15 @@
 from enum import Enum
 
 class Color(Enum):
-    BACKGROUND = '#17202a'
-    SECUNDARY_BACKGROUND = '#2C3E50'
+    # Principal design
+    BACKGROUND = '#0e141a'
+    SECUNDARY_BACKGROUND = '#17202a'
     HEADERS = '#F1C40F'
-    PRINCIPAL_TEXT = '#F4D03F'
-    SECUNDARY_TEXT = '#F9E79F'
+    SUBHEADERS = '#FDE37B'
+    PRINCIPAL_TEXT = '#fcf3cf'
+    BUTTON_HOVER = '#233344'
+    BORDER = '#FFFBEE'
+    
+    # Extras
+    ACTUARIA_WORD = '#aed6f1'
+    PYTHON_WORD = '#abebc6'

@@ -1,4 +1,5 @@
 import reflex as rx
+from .views.divider import divider
 from .views.header import header
 from .views.about_me import about_me
 from .views.projects import projects
@@ -15,11 +16,12 @@ def index() -> rx.Component:
     return rx.box(
         
         header(),
-        rx.box(about_me(), margin= DIVIDER_MARGIN),
-        rx.divider(),
-        rx.box(projects(), margin= DIVIDER_MARGIN),
+        about_me(),
+        divider(),
+        projects(),
+        divider(),
         width="100%",
-        height= '100%'
+        height= '100%',
     )
 
 app = rx.App(

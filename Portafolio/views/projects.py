@@ -1,84 +1,73 @@
 import reflex as rx 
+from Portafolio import constants
+from Portafolio.styles import Color
 
 def projects() -> rx.Component:
     return rx.container(
         rx.vstack(
             rx.heading(
                 'Proyectos',
-                size= '8',
-                align= 'left'
+                size= constants.HEADINGS_SIZE,
+                align= 'left',
+                color= Color.HEADERS.value
             ),
             
             rx.flex(
                 
-                rx.card(
+                rx.box(
                     rx.heading(
                         'Proyecto # 1',
-                        size= '7',
+                        size= constants.SUBHEADINGS_SIZE,
+                        align= 'center',
+                        color= Color.SUBHEADERS.value
                         
                     ),
-                    
-                    rx.text(
-                        'Esto es un prueba',
-                        align= 'left'
-                        
-                    ),
-                    
-                    rx.text(
-                        'Esto es un prueba',
-                        align= 'left'
-                        
-                    ),
+                    flex= '1',
+                    background_color= Color.SECUNDARY_BACKGROUND.value,
+                    border= constants.BORDERS,
+                    border_radius= constants.BORDERS_RADIUS,
+                    box_shadow= constants.BOX_SHADOW,
                 ),
                 
-                rx.card(
+                rx.box(
                     rx.heading(
                         'Proyecto # 2',
-                        size= '7',
-                        
+                        size= constants.SUBHEADINGS_SIZE,
+                        align= 'center',
+                        color= Color.SUBHEADERS.value
                     ),
-                    
-                    rx.text(
-                        'Esto es un prueba',
-                        align= 'left'
-                        
-                    ),
-                    
-                    rx.text(
-                        'Esto es un prueba',
-                        align= 'left'
-                        
-                    ),
+                    flex= '1',
+                    background_color= Color.SECUNDARY_BACKGROUND.value,
+                    border= constants.BORDERS,
+                    border_radius= constants.BORDERS_RADIUS,
+                    box_shadow= constants.BOX_SHADOW,
                 ),
                 
-                rx.card(
+                rx.box(
                     rx.heading(
                         'Proyecto # 3',
-                        size= '7',
-                        
+                        size= constants.SUBHEADINGS_SIZE,
+                        align= 'center',
+                        color= Color.SUBHEADERS.value
                     ),
-                    
-                    rx.text(
-                        'Esto es un prueba',
-                        align= 'left'
-                        
-                    ),
-                    
-                    rx.text(
-                        'Esto es un prueba',
-                        align= 'left'
-                        
-                    ),
+                    flex= '1',
+                    background_color= Color.SECUNDARY_BACKGROUND.value,
+                    border= constants.BORDERS,
+                    border_radius= constants.BORDERS_RADIUS,
+                    box_shadow= constants.BOX_SHADOW,
                 ),
                 gap= '2em',
                 wrap= 'wrap',
                 width= '100%',
+                justify_content= 'space-between',
+                align= 'center'
                 
             ),
-            spacing= '3',
+            spacing= constants.SPACING_IN_STACKS,
             
         ),
         align_items= 'center',
         justify_content= 'center',
-        spacing= '5'
+        spacing= constants.SPACING_IN_CONTAINERS,
+        margin = constants.DIVIDER_MARGIN
     )
