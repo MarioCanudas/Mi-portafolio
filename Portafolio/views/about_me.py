@@ -15,16 +15,16 @@ def about_me() -> rx.Component:
                 ),
             rx.box(
                 rx.flex(
-                        rx.text(
-                            """
-                            Estudiante de Actuaría con habilidades en Python para el análisis y visualización de datos. Con experiencia práctica en 
-                            el desarrollo de soluciones analíticas y un interés constante en aprender técnicas de Machine Learning y Data Science. 
-                            Busco aplicar mis conocimientos para resolver problemas complejos en el sector actuarial.
-                            """,
-                            align= 'left',
-                            color= Color.PRINCIPAL_TEXT.value
-                            
-                        ),
+                    rx.text(
+                        """
+                        Estudiante de Actuaría con habilidades en Python para el análisis y visualización de datos. Con experiencia práctica en 
+                        el desarrollo de soluciones analíticas y un interés constante en aprender técnicas de Machine Learning y Data Science. 
+                        Busco aplicar mis conocimientos para resolver problemas complejos en el sector actuarial.
+                        """,
+                        align= 'left',
+                        color= Color.PRINCIPAL_TEXT.value
+                        
+                    ),
                         
                     rx.image(
                         src= "/me.jpg",
@@ -39,7 +39,7 @@ def about_me() -> rx.Component:
                     justify_content="space-between",  
                     width="100%",
                     spacing= constants.SPACING_IN_STACKS,
-                    padding="1.5rem",
+                    padding= constants.PADDING_BOXES,
                     
                 ),
                 background_color= Color.SECUNDARY_BACKGROUND.value,
@@ -56,3 +56,4 @@ def about_me() -> rx.Component:
         margin = constants.DIVIDER_MARGIN
         
     )
+    

@@ -3,7 +3,6 @@ from .views.divider import divider
 from .views.header import header
 from .views.about_me import about_me
 from .views.projects import projects
-from .constants import DIVIDER_MARGIN
 from .styles import Color
 
 style = {
