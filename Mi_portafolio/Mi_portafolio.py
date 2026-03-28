@@ -1,5 +1,4 @@
 import reflex as rx
-from rxconfig import config
 
 from Mi_portafolio.pages.index import index
 from Mi_portafolio.pages.about import about
@@ -19,7 +18,7 @@ app = rx.App(
     theme=theme,
     stylesheets=[
         "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600&display=swap",
-        "/styles.css"
+        "/styles.css",
     ],
 )
 app.add_page(index, route="/")
