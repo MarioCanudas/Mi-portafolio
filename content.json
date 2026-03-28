@@ -1,0 +1,22 @@
+{
+    "name": "Mario C.",
+    "role": "Actuario dev",
+    "email": "mario.cz24@outlook.com",
+    "github": "https://github.com/MarioCanudas",
+    "linkedin": "https://linkedin.com/in/mario-c",
+    "about": "soy un actuario y desarrollador de software con experiencia en diseño de soluciones robustas y modelos matemáticos. me apasiona simplificar lo complejo.",
+    "projects": [
+        {
+            "title": "Modelo de Riesgo",
+            "description": "predicción enfocada en ML.",
+            "url": "https://github.com/mario-c",
+            "image": "https://dummyimage.com/600x400/111111/dddddd.png&text=modelo"
+        },
+        {
+            "title": "Data Pipeline",
+            "description": "automatización de recolección.",
+            "url": "#",
+            "image": "https://dummyimage.com/600x400/111111/dddddd.png&text=pipeline"
+        }
+    ]
+}
