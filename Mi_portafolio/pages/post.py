@@ -6,7 +6,9 @@ from Mi_portafolio.backend.state import PortfolioState
 class PostState(PortfolioState):
     @rx.var
     def current_post(self) -> dict:
-        slug = self.router.page.params.get("slug", "")
+        path = self.router.url.path or ""
+        slug = path.split("/")[-1] if path else ""
+
         for p in self.posts:
             if p["slug"] == slug:
                 return p
@@ -32,26 +34,6 @@ def post() -> rx.Component:
             rx.box(
                 rx.markdown(
                     PostState.current_post["content"],
-                    component_map={
-                        "h1": lambda *args, **kwargs: rx.heading(
-                            *args, **kwargs, size="5", margin_top="4", margin_bottom="2"
-                        ),
-                        "h2": lambda *args, **kwargs: rx.heading(
-                            *args, **kwargs, size="4", margin_top="4", margin_bottom="2"
-                        ),
-                        "h3": lambda *args, **kwargs: rx.heading(
-                            *args, **kwargs, size="3", margin_top="4", margin_bottom="2"
-                        ),
-                        "p": lambda *args, **kwargs: rx.text(
-                            *args, **kwargs, margin_bottom="4", line_height="1.6"
-                        ),
-                        "a": lambda *args, **kwargs: rx.link(
-                            *args,
-                            **kwargs,
-                            color="var(--gray-11)",
-                            text_decoration="underline",
-                        ),
-                    },
                 ),
                 width="100%",
                 text_align="left",
