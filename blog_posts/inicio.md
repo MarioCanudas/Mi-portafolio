@@ -1,15 +1,15 @@
 ---
-title: "El inicio del minimalismo"
+title: "primera entrada"
 date: "2026-03-28"
 ---
 
 # Bienvenido a mi primer post
 
-Como **Actuary dev**, el análisis y el manejo de datos complejas son parte fundamental de mi día. Pero a la hora de presentar información, menos es más. 
+Como **Actuary & data dev**, el análisis y el manejo de datos complejas son parte fundamental de mi día. Pero a la hora de presentar información, menos es más. 
 
-El modelo de *Theo (t3.gg)* siempre me ha inspirado: interfaces limpias, funcionales y sin distracciones. En este blog estaré compartiendo tanto modelos actuariales de machine learning como reflexiones sobre desarrollo de backend.
+El diseño de *Theo (t3.gg)* siempre me ha gustado: interfaces limpias, funcionales y sin distracciones. Si visitas su pagina verás que es una copia total a la mia ;)
 
-### ¿Por qué Reflex?
+En este blog estaré compartiendo tanto modelos actuariales de machine learning como reflexiones en general sobre el mundo y nuestra sociedad actual.
+
+## Y si es que te lo preguntase: ¿Por qué Reflex?
 Es una gran herramienta para desarrolladores en Python que buscan crear interfaces escalables sin tocar JavaScript o frontend pesado.
-
-Nos vemos en el próximo artículo.
