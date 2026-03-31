@@ -16,7 +16,7 @@ def project_card(project: dict) -> rx.Component:
                 rx.box(
                     rx.heading(project["title"], size="4", margin_bottom="2"),
                     rx.text(project["description"], size="2", color="var(--gray-11)"),
-                    padding="4",
+                    padding="16px",
                 ),
             ),
             border="1px solid var(--gray-4)",
