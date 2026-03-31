@@ -1,6 +1,6 @@
 # 🚀 My Portfolio
 
-An interactive personal portfolio built with **[Reflex](https://reflex.dev/)**, a pure Python framework for building web applications. This portfolio belongs to **Mario C.**, Actuary and Software Developer focused on robust solutions, mathematical models, and automation.
+An interactive personal portfolio built with **[Reflex](https://reflex.dev/)**, a pure Python framework for building web applications. This portfolio belongs to **Mario C.**, Actuary focused on robust solutions, mathematical models, and automation.
 
 > **Note**: This template is completely free to use! Feel free to fork it, modify it, and use it for your own portfolio. This project was heavily inspired by the design and vibe of [t3.gg](https://t3.gg/).
 
