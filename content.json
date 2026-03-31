@@ -1,22 +1,22 @@
 {
     "name": "Mario C.",
-    "role": "Actuario dev",
+    "role": "actuary & data dev",
     "email": "mario.cz24@outlook.com",
     "github": "https://github.com/MarioCanudas",
     "linkedin": "https://www.linkedin.com/in/mario-canudas-2943b5345",
     "about": "soy un actuario y desarrollador de software con experiencia en diseño de soluciones robustas y modelos matemáticos. me apasiona simplificar lo complejo.",
     "projects": [
         {
-            "title": "Modelo de Riesgo",
-            "description": "predicción enfocada en ML.",
-            "url": "https://github.com/mario-c",
-            "image": "https://dummyimage.com/600x400/111111/dddddd.png&text=modelo"
+            "title": "aether",
+            "description": "financial analysis platform.",
+            "url": "https://github.com/larispardo/Aether",
+            "image": "https://dummyimage.com/600x400/111111/dddddd.png&text=aether"
         },
         {
-            "title": "Data Pipeline",
-            "description": "automatización de recolección.",
-            "url": "#",
-            "image": "https://dummyimage.com/600x400/111111/dddddd.png&text=pipeline"
+            "title": "credo",
+            "description": "api to determine credit card approval",
+            "url": "https://github.com/MarioCanudas/Credo",
+            "image": "https://dummyimage.com/600x400/111111/dddddd.png&text=credo"
         }
     ]
 }
